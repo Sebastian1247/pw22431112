@@ -1,0 +1,25 @@
+body{
+    border: 1px solid red; /* color y grueso del borde*/
+    font-size: 16px; /* Tamaño de letra deafult en las paginas web*/
+    margin: 0px auto;/* margenes del body, Arriba Abajo*/
+    max-width: 1024px; /* Tamaño maximo del body*/
+}
+
+header nav ol{
+    text-align: center; /* Todos los elementos que estan adentro del ol se centran*/
+}
+/* Solo se afectan los li adentro del header, nav y ol*/
+header nav ol li{
+    background: blue;
+    border: 1px solid blue;
+    color: white;
+    display: inline-block; /* Ahora los li solo abarcan el texto en vez de toda la pantalla*/
+    margin-right: 25px;
+    /*padding: 12px;*/
+    padding: 10px 26px;  
+}
+/* hover es un evento que cuando pasas el mouse cambia de color*/
+header nav ol li:hover{
+    background: white;
+    color: blue;
+}
