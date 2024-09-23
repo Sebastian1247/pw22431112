@@ -1,0 +1,164 @@
+body {
+    font-size: 16px;
+    margin: 0px auto;
+    /*Recomendación del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
+}
+footer{
+   background: rgba(68,101,177,1);
+   color: white;
+   margin-top: 40px;
+}
+
+footer article{
+    display: inline-block;
+    width: 32.8%;
+}
+
+#footerart03 input[type="button"]{
+    background: #4267b3;
+    color: white;
+    border-radius: 15px;
+    margin-left: 50%;
+    border-color: white;
+}
+
+#facebook{
+    left: 800px;
+    top: -196px;
+    position: relative;
+
+}
+
+#twitter{
+    left: 800px;
+    top: -196px;
+    position: relative;
+}
+
+#personas{
+    left: 850px;
+    top: -206px;
+    position: relative;
+}
+
+#sintiendomesocial{
+    left: 600px;
+    top: -246px;
+    position: relative;
+    width: 150px;
+    height: auto;
+}
+
+header input {
+    float: right;
+    margin-right: -200px;
+    margin-top: 15px;
+}
+
+head nav {
+    border: 1px solid red;
+    margin-left: 220px;
+}
+
+header nav ul li {
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+    padding-bottom: 2px;
+}
+#bgoffer{
+    left: -35px;
+    top: -406px;
+    /* static es por defecto */
+    position: relative;
+}
+#granthams {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+#paint {
+    float: right;
+}
+
+#primerSeccion {
+    height: 318px;
+    margin-top: 60px;
+}
+
+#primerSeccion article {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seccion01art01 {
+    margin-left: 30px;
+    width: 60%;
+}
+
+#seccion01art02 {
+    margin-left: 50px;
+    width: 30%;
+}
+
+#seccion01art02 ul {
+    /*Se borran los puntos de color negro*/
+    list-style: none;
+    margin-left: -40px;
+}
+
+#seccion01art02 ul li::before {
+    content: "• ";
+    color: #FF0099;
+
+}
+#secc03art04{
+    /*border: 1px solid red;*/
+    margin-top: 40px;
+    /*padding-top: 40px;*/
+}
+#secc03art04 input{
+    border-radius: 5px;
+}
+#secc03art04 input[type="button"]{
+    background: #8bc500;
+    color: white;
+}
+#segundaSeccion article{
+    text-align: right;
+    margin-right: 165px;
+}
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+.colorazul{
+    color: #4267b3
+}
+.colorrosa {
+    color: #FF0099;
+}
+.colorverde{
+    color: #8bc500
+}
+
+.letragrande {
+    font-size: 3.5em;
+}
+.letramediana{
+    font-size: 2em;
+}
+.nito {
+    font-weight: bold;
+}
+
+/*La imagen de personas esta en position static por eso no se ve ocupa
+ser relative y moverla con top, left, etc.*/
