@@ -1,0 +1,125 @@
+
+
+body {
+    font-family: Calibri;
+    font-size: 16px; /* 1em */
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+#footerart01{
+    width: 100%;
+    margin-top: -65px;
+    font-family: 'Times New Roman';
+    font-size: 0.99em;
+}
+
+#footerart01 img{
+    vertical-align: middle;
+}
+footer article{
+    display: inline-block;
+    width: 19.3%;
+    vertical-align: top;
+    border: none;
+    text-align: justify;
+}
+
+footer hr{
+    border-style: double;
+    color: lightgray;
+}
+
+#firstbike{
+    margin-top: 50px;
+}
+header nav{
+    margin-left: -40px;
+    margin-top: 55px;
+}
+header nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    /*padding-bottom: 2px;*/
+}
+header hr{
+    margin-top: 55px;
+}
+hr{
+    border-style: dashed;
+    color: gray;
+}
+#buy{
+    position: relative;
+    left: 480px;
+    top: 110px
+
+}
+
+#gotoshop{
+    position: relative;
+    left: 465px;
+    top: 55px;
+}
+
+#logosHeader{
+    margin-left: 850px;
+    margin-top: -95px;
+    float: right;
+}
+
+#seccion01art01{
+    width: 60%;
+}
+
+#seccion01art02{
+    width: 60%;
+    text-align: justify;
+}
+
+
+#seccion01art03 img{
+    width: 292px;
+    height: auto;
+}
+
+#segundaSeccion{
+    margin-left: 700px;
+    margin-top: -500px;
+}
+
+#bike{
+    width: 300px;
+    height: 500px;
+}
+
+#fiveyears{
+    position: relative;
+    top: -95px;
+    left: -80px;
+    height: 90px;
+}
+
+
+.colornegro{
+   color: #353535;
+}
+.colorverde{
+   color: #5dc916;
+}
+
+.colorgris{
+    color: gray;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.letragrande{
+    font-size: 4.5em;
+}
+
+.letramediana{
+    font-size: 1.2em;
+}
